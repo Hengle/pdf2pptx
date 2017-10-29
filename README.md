@@ -17,4 +17,8 @@ pip install python-pptx
 
 python pdf2pptx.py in.pdf out.pptx
 
+python pdf2pptx.py -h
+
+縦横比は適当に変えて下さい。
+
 以上。
