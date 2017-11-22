@@ -7,7 +7,7 @@ import argparse
 parser = argparse.ArgumentParser(description="description goes here")
 parser.add_argument('fname', type=str, help='input file name')
 parser.add_argument('-o', type=str, help='output file name', required=True)
-parser.add_argument('-r', type=str, help='resolution',
+parser.add_argument('-r', type=str, help='resolution. Default is 300.',
                     required=False, default=300)
 parser.add_argument('--width', type=str,
                     help='Width of slide.Default is 10.',
